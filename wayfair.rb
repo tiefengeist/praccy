@@ -2,16 +2,35 @@ class LeaderBoard
   @@all = []
   def initialize
     @@all << self
+    @players = {}
   end
 
   def add_score(player_id, score)
-  
+
   end
 
   def top(max)
   end
 
   def reset(player_id)
+  end
+end
+
+class Player(player_id, score)
+  @@all = []
+  def initialize
+    @@all << self
+    @id = player_id
+    @scores = [score]
+    @total = score
+    @average = self.total / self.scores.size
+  end
+end
+
+class Score(number)
+  @@all = []
+  def initialize
+    self.number = number
   end
 end
 
