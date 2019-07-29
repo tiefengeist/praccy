@@ -5,8 +5,13 @@ class LeaderBoard
   end
 
   def add_score(player_id, score)
-    @player = player_id
-    @score = score
+  
+  end
+
+  def top(max)
+  end
+
+  def reset(player_id)
   end
 end
 
