@@ -17,7 +17,6 @@ class Player
     @player_id = player_id
     @score = score
     @@all << self
-    # @@all << self
     # @id = player_id
     # @scores = [score]
     # @total = score
